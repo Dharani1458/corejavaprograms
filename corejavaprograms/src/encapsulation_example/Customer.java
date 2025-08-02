@@ -26,5 +26,5 @@ public class Customer {
 	public String toString() {
 		return "Customer [cid=" + cid + ", cname=" + cname + ", city=" + city + "]";
 	}
-	
+}
 	
