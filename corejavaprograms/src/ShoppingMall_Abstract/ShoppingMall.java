@@ -1,8 +1,10 @@
 package ShoppingMall_Abstract;
 
-public interface ShoppingMall {
-	 void purchase();
-	 void show();
-	
-
+public abstract class ShoppingMall{
+	public abstract void purchase();
+	public void show()
+	{
+		System.out.println("Welcome to Pvr mall");
+		
+	}
 }
